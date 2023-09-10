@@ -441,9 +441,23 @@
                         </svg>
                     </a>
                 </li>
-
             </ul>
         </div>
+        <div class="footer-container footer-form">
+          <form name="subscribe_form" autocomplete="on" method="" >
+              <label class="footer-form_label">
+                  Subscribe
+                  <input type="email" name="email" placeholder="E-mail" class="footer-form-input" required />
+              </label>
+              
+          
+              <button type="submit" class="footer-form-button">Subscribe
+                  <svg class="footer-form-svgsubscribe">
+                      <use href="./images/icons.svg#submit"></use>
+                  </svg>
+              </button>
+          </form>
+      </div>
     </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -453,7 +467,7 @@
             <use href="./icons.svg#close"></use>
           </svg>
         </button>
-        
+      
         <p class="form-header">Leave your contacts and we will call you back</p>
 
         <form name="signup_form" autocomplete="on" class="form-container list"  method="">
@@ -464,7 +478,7 @@
                             <input type="text" class="form-input" name="full_name"   required />
                                 <!-- <span class="form-input-iconbox"> -->
                             <svg class="form-input-icon">
-                            <use href="./icons.svg#person"></use>
+                            <use href="./images/icons.svg#person"></use>
                             </svg> 
                                 <!-- </span> -->
                     </label>
@@ -473,7 +487,7 @@
                         <span class="form-label-text">Phone</span>
                         <input type="tel" class="form-input" name="phone_number" required />
                         <svg class="form-input-icon">
-                                    <use href="./icons.svg#phone"></use>
+                                    <use href="./images/icons.svg#phone"></use>
                         </svg>
                     </label>
 
@@ -481,7 +495,7 @@
                         <span class="form-label-text">Email</span>
                         <input type="email" class="form-input" name="email_add" required />
                         <svg class="form-input-icon">
-                            <use href="./icons.svg#email"></use>
+                            <use href="./images/icons.svg#email"></use>
                         </svg>
                     </label>
 
@@ -494,7 +508,7 @@
                     <input type="checkbox" value="agree" name="agreement" class="checkbox" required />
                     <span class="checkbox-icon">
                         <svg class="check-mark">
-                            <use href="./icons.svg#check-mark"></use>
+                            <use href="./images/icons.svg#check-mark"></use>
                         </svg>
                     </span>
 
@@ -507,7 +521,7 @@
                 <button type="submit" class="form-button">Send</button>
             </div>
            
-        </form>
+        </form>  
       </div>
     </div>
     <script src="./js/modal.js"></script>
