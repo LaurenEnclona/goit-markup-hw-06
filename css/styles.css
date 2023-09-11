@@ -312,7 +312,7 @@ html {
 /* footer form */
 .footer-container form {
   display: flex;
-  flex-direction: flex-end;
+  align-items: center;
 }
 .footer-form {
   width: 453px;
@@ -335,6 +335,7 @@ html {
   margin-top: 16px;
   font-size: 14px;
   flex-shrink: 0;
+  outline: none;
   background: var(--navyblue, #2e2f42);
   border-radius: 4px;
   border: 1px solid var(--white, #fff);
@@ -467,6 +468,11 @@ html {
   fill: var(--white);
   width: 16px;
   height: 16px;
+}
+.footer-social
+.team-social-svg{
+  width: 24px;
+  height: 24px;
 }
 .team-social-link:hover,
 .team-social-link:focus {
